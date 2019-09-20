@@ -1,0 +1,14 @@
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\bin\Debug\ProductApi.Infrastructure.dll.config
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\bin\Debug\ProductApi.Infrastructure.dll
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\bin\Debug\ProductApi.Infrastructure.pdb
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\bin\Debug\ProductApi.Core.dll
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\bin\Debug\ProductApi.Core.pdb
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\obj\Debug\ProductApi.Infrastructure.csprojAssemblyReference.cache
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\obj\Debug\ProductApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\obj\Debug\ProductApi.Infrastructure.csproj.CopyComplete
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\obj\Debug\ProductApi.Infrastructure.dll
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Infrastructure\obj\Debug\ProductApi.Infrastructure.pdb

@@ -1,0 +1,73 @@
+<h1>
+    Are You Sure You Want To Delete Product ?
+</h1>
+<br/>
+<!-- <h1 class="text-center">{{title}}</h1>
+
+<form  [formGroup]='deleteProductForm' novalidate class='form'>
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Product Name</label>
+        <div class="col-sm-4">
+            <input type="text" name="Title" [(ngModel)] = "producttodelete.Title" readonly>
+            
+        </div>
+    </div>
+
+
+    <div class="alert alert-danger"
+        *ngIf="deleteProductForm.get('Title').hasError('required') && deleteProductForm.get('Title').touched">Product
+        Name
+        is required</div>
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Product Price</label>
+        <div class="col-sm-4">
+                <input type="text" name="Price" [(ngModel)] = "producttodelete.Price" readonly>
+            
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Product Color</label>
+        <div class="col-sm-4">
+                <input type="text" name="Color" [(ngModel)] = "producttodelete.Color" readonly>
+           
+
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Product inStock</label>
+        <div class="col-sm-4">
+                <input type="text" name="InStock" [(ngModel)] = "producttodelete.InStock" readonly>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Product InStock</label>
+        <div class="col-sm-4">
+                <input type="text" name="InStock" [(ngModel)] = "producttodelete.InStock" readonly>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Product Details</label>
+        <div class="col-sm-4">
+                <input type="text" name="Details" [(ngModel)] = "producttodelete.Details" readonly>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Product ImageUrl</label>
+        <div class="col-sm-4">
+                <input type="text" name="ImageURL" [(ngModel)] = "producttodelete.ImageURL" readonly>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Product Rating</label>
+        <div class="col-sm-4 ">
+                <input type="text" name="Rating" [(ngModel)] = "producttodelete.Rating" readonly>
+        </div>
+    </div>
+    <br> -->
+    <form>
+    <button (click)='Goback()' style='margin-right:16px' class="btn">Back</button>
+
+
+    <button (click)='deleteProduct()' class="btn btn-danger">Delete</button>
+
+</form>

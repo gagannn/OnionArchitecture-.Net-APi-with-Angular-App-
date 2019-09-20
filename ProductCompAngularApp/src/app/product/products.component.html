@@ -1,0 +1,78 @@
+  
+<div class="container">
+    
+    <p class="text-info">This Angular app is created by {{name}}</p><hr><br>
+    <div class="row">
+      <div class="col-md-2">Filter By:</div>
+      <div class="col-md-6"><input [(ngModel)]='searchText' type="text" class="form-control" /></div>
+  <br><br><br>
+      </div>
+      <div class="row">
+        <div class="table-responsive">
+          <table class="table table-striped" *ngIf='products && products.length'>
+            <thead>
+              <!-- <th>
+                <button class="btn btn-info" (click)='toggleImage()'>
+                  {{showImage ? 'Hide' :'Show'}} Image
+                </button>
+              </th> -->
+              <th></th>
+              <th>
+                Title
+              </th>
+              <th>
+                Price
+              </th>
+              <th>
+                Color
+              </th>
+              <th>
+                InStock
+              </th>
+              <th>
+                Quantity
+              </th>
+              <th>
+                
+              </th>
+              <th></th>
+              
+            </thead>
+            <tbody>
+              <tr *ngFor="let p of products | productfilter: searchText" >
+                <td>
+                  <img [src]="p.ImageURL" [style.width.px]='imageWidth' [style.margin.px]='imageMargin' >  <!--  *ngIf='showImage'-->
+                </td>
+                <td>
+                   <a (click)='productDetails(p.ProductID)'> {{p.Title}} </a>
+                </td>
+                <td>
+                    {{p.Price | currency:'USD':'symbol':'1.2-2'}}
+                  
+                </td>
+                <td>
+                    {{p.Color}}
+                </td>
+                <td>
+                    <span >
+                        <i *ngIf='p.InStock' class="fa fa-check" style="font-size:20px;color:green"></i>
+                        <i *ngIf='!p.InStock' class="fa fa-close" style="font-size:20px;color:red"></i>
+                      </span>
+                </td>
+                <td>
+                  {{p.Quantity}}
+                </td>
+                <td> <a (click)='editproduct(p.ProductID)' class="btn btn-warning a-btn-slide-text">
+                    <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                    <span><strong>Edit</strong></span>            
+                </a></td>
+                <td><a (click)='DeleteProd(p.ProductID)' class="btn btn-danger a-btn-slide-text">
+                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                     <span><strong>Delete</strong></span>            
+                 </a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>

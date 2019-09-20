@@ -1,0 +1,6 @@
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Core\bin\Debug\ProductApi.Core.dll
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Core\bin\Debug\ProductApi.Core.pdb
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Core\obj\Debug\ProductApi.Core.csprojAssemblyReference.cache
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Core\obj\Debug\ProductApi.Core.csproj.CoreCompileInputs.cache
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Core\obj\Debug\ProductApi.Core.dll
+C:\Gagan_Training\Compunnel_Project\ProductApi\ProductApi.Core\obj\Debug\ProductApi.Core.pdb
